@@ -9,7 +9,7 @@ import numpy as np
 # Step 1 - shuffle_xy
 import numpy as np
 
-def shuffle_xy(X, y, seed=42):
+def shuffle_xy(X, y, seed=100):
     """Randomly permute feature rows and targets together."""
 
     # Create a random number generator
